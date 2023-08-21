@@ -16,7 +16,7 @@ public class ContaTerminal {
             System.out.println("Confirme seu nome:");
             String fullName = scanner.next();
 
-            
+
             String response = MessageFormat.format(
                 "Olá {0}, obrigado por criar uma conta em nosso banco, sua agência é {1}, conta {2} e seu saldo {3} já está disponível para saque.",
                 fullName,
@@ -26,6 +26,9 @@ public class ContaTerminal {
             );
 
             System.out.println(response);
+        } catch (Exception e) {
+            System.out.println(e);
+            System.out.println("Ocorreu um erro ao processar sua solicitação, por favor tente novamente.");
         }
     }
 }
