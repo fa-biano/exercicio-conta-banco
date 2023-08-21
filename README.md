@@ -28,3 +28,7 @@ Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o
 *"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".*
 
 Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
+
+## Para executar o código:
+- No terminal execute o comando na raiz: `cd bin && java ContaTerminal` ou;
+- Abra o VS Code e clique no menu `Run/Run Without Debbugging` ou pressione `Ctrl + F5`;
